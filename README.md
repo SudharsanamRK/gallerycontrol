@@ -1,15 +1,15 @@
 # Ex.No:8 To create a gallery control using android studio to display images or photos.
 
 
-## AIM:
+## AIM
 
 To create a gallery control using android studio to display images or photos.
 
-## EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED
 
 Latest Version Android Studio
 
-## ALGORITHM:
+## ALGORITHM
 1.Prepare Images: Gather the images you want to display in the gallery and store them in the res/drawable folder of your Android project.
 
 2.Design Layout: Create the layout for the main activity (activity_main.xml). Include a Gallery widget to display the images and an ImageView to show the selected image.
@@ -20,13 +20,13 @@ Latest Version Android Studio
 
 5.Handle Item Selection: Implement functionality to respond when the user selects an image from the gallery. Update the ImageView with the selected image accordingly.
 
-## PROGRAM:
+## PROGRAM
 ```
 Program to print the text “GalleryControl”.
 Developed by: Sudharsanam R K
 Registeration Number : 212222040163
 ```
-## ACTIVITY_MAIN.XML
+## In activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -76,7 +76,7 @@ Registeration Number : 212222040163
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-## MainActivity.java
+## In MainActivity.java
 ```java
 package com.example.galleryview;
 
@@ -152,7 +152,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-## CustomizedGalleryAdapter.java
+## In CustomizedGalleryAdapter.java
 ```java
 package com.example.galleryview;
 
@@ -209,7 +209,5 @@ public class CustomizedGalleryAdapter extends BaseAdapter {
 ![image](https://github.com/SudharsanamRK/gallerycontrol/assets/115523484/455f6311-d9e9-4a6f-914e-a9868aba1a6a)
 
 
-
 ## RESULT
 Thus a Simple Android Application to create a gallery control using android studio to display images or photos is developed and executed successfully.
-
