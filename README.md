@@ -122,15 +122,14 @@ public class MainActivity extends Activity {
             }
         });
     }
-```
-```
     public class ImageAdapter extends BaseAdapter {
         private Context mContext;
 
         public ImageAdapter(Context c) {
             mContext = c;
         }
-
+```
+```
         public int getCount() {
             return mImageIds.length;
         }
