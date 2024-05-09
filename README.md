@@ -56,8 +56,7 @@ Registeration Number : 212222040163
         android:layout_below="@+id/gallery"
         android:layout_centerHorizontal="true"
         android:scaleType="fitCenter" />
-```
-```
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -128,8 +127,7 @@ public class MainActivity extends Activity {
         public ImageAdapter(Context c) {
             mContext = c;
         }
-```
-```
+
         public int getCount() {
             return mImageIds.length;
         }
@@ -207,6 +205,7 @@ public class CustomizedGalleryAdapter extends BaseAdapter {
 
 ## OUTPUT
 ![image](https://github.com/SudharsanamRK/gallerycontrol/assets/115523484/4f0ea48f-db51-448b-abce-56e3b957c320)
+![image](https://github.com/SudharsanamRK/gallerycontrol/assets/115523484/455f6311-d9e9-4a6f-914e-a9868aba1a6a)
 
 
 ## RESULT
