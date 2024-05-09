@@ -56,13 +56,12 @@ Registeration Number : 212222040163
         android:layout_below="@+id/gallery"
         android:layout_centerHorizontal="true"
         android:scaleType="fitCenter" />
-
+```
+```
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-```
-```
         android:fontFamily="sans-serif-black"
         android:text="Gallery View"
         android:textColor="#673AB7"
