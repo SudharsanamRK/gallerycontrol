@@ -207,7 +207,6 @@ public class CustomizedGalleryAdapter extends BaseAdapter {
 
 ## OUTPUT
 ![image](https://github.com/SudharsanamRK/gallerycontrol/assets/115523484/4f0ea48f-db51-448b-abce-56e3b957c320)
-![image](https://github.com/SudharsanamRK/gallerycontrol/assets/115523484/455f6311-d9e9-4a6f-914e-a9868aba1a6a)
 
 
 ## RESULT
