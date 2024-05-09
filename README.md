@@ -133,7 +133,8 @@ public class MainActivity extends Activity {
         public int getCount() {
             return mImageIds.length;
         }
-
+```
+```
         public Object getItem(int position) {
             return null;
         }
